@@ -1,12 +1,12 @@
 package com.nexus.projetokallopolli.service;
 
-import br.com.kallopolli.companheiro.dto.UsuarioRequest;
-import br.com.kallopolli.companheiro.dto.UsuarioResponse;
-import br.com.kallopolli.companheiro.entity.Cargo;
-import br.com.kallopolli.companheiro.entity.Usuario;
-import br.com.kallopolli.companheiro.exception.ConflitoException;
-import br.com.kallopolli.companheiro.exception.RecursoNaoEncontradoException;
-import br.com.kallopolli.companheiro.repository.UsuarioRepository;
+import com.nexus.projetokallopolli.dto.UsuarioRequest;
+import com.nexus.projetokallopolli.dto.UsuarioResponse;
+import com.nexus.projetokallopolli.entity.Cargo;
+import com.nexus.projetokallopolli.entity.Usuario;
+import com.nexus.projetokallopolli.exception.ConflitoException;
+import com.nexus.projetokallopolli.exception.RecursoNaoEncontradoException;
+import com.nexus.projetokallopolli.repository.UsuarioRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

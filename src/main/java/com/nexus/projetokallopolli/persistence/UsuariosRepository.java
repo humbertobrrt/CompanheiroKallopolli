@@ -1,4 +1,4 @@
-package persistence;
+package com.nexus.projetokallopolli.persistence;
 
 import org.springframework.stereotype.Repository;
 
